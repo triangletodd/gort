@@ -1,0 +1,4 @@
+http:
+  auth:
+    key: foo
+    secret: bar
