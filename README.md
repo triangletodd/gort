@@ -16,7 +16,7 @@ I wanted to write some Golang and play with the Kubernetes API and Kubernetes CR
   - [update-codegen.sh](hack/update-codegen.sh) uses [kubernetes/code-generator](https://github.com/kubernetes/code-generator) under the covers
   - generated code can be found in the [pkg/client](pkg/client) folder as well as [zz_generated.deepcopy.go](pkg/apis/gorturl/v1/zz_generated.deepcopy.go)
 - Manually created my CRD and a few resources to test my client code against
-  - [example/client/gorturls.yaml](exmaple/client/gorturls.yaml)
+  - [example/client/gorturls.yaml](example/client/gorturls.yaml)
 - A quick and dirty client to test that everything was happy
   - [example/client/gort_client.go](example/client/gort_client.go)
 - Used [gin](https://github.com/gin-gonic/gin) to create an http server with the following verbs#endpoints
