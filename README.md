@@ -21,9 +21,9 @@ I wanted to write some Golang and play with the Kubernetes API and Kubernetes CR
   - [example/client/gort_client.go](example/client/gort_client.go)
 - Used [gin](https://github.com/gin-gonic/gin) to create an http server with the following verbs#endpoints
   - GET#service/status -- Intended to be used for healthchecking.
-  - GET#url -- Lists of all GortURLs (returns JSON)
-  - POST#url -- Creates a GortURL (returns JSON)
-  - GET#url/:short -- Returns a GortURL (returns JSON)
+  - GET#url -- Lists of all GortURLs (JSON)
+  - POST#url -- Creates a GortURL (JSON)
+  - GET#url/:short -- Returns a GortURL (JSON)
   - GET#/:short -- Redirects to a GortURL's long address
     - Hacky, but I used gin router's NoRoute functionality to do this
     - httprouter v1 only supports explicit matches. see: [#73](https://github.com/julienschmidt/httprouter/issues/73)
