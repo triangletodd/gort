@@ -1,7 +1,7 @@
 # What
 ![gort](https://github.com/triangletodd/gort/blob/master/static/gort.jpg?raw=true)
 
-Gort is a URL shortener intended to run on a Kubernetes cluster which uses a Kubernetes Custom Resource Definition as its data store.
+Gort is a URL shortener intended to run on a Kubernetes cluster which uses a Kubernetes as its datastore via a Custom Resource Definition (gorturl).
 
 # Why
 I wanted to write some Golang and play with the Kubernetes API and Kubernetes CRD's.
