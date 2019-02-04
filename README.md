@@ -23,9 +23,9 @@ I wanted to write some Golang and play with the kubernetes API.
   - [example/client/gort_client.go](example/client/gort_client.go)
 
 # Gotchas
-I've temporarily hardcoded the path to my DO kubeconfig on line 13 in [gort_client.go](example/client/gort_client.go:13). If you want this to run locally you'll need to do one of two things:
+I've temporarily hardcoded the path to my DO kubeconfig on line 13 in [gort_client.go](example/client/gort_client.go#13). If you want this to run locally you'll need to do one of two things:
 
 - Make sure you have a valid kubeconfig at $HOME/.kubeenv/kubedo-1
-- Modify [gort_client.go](example/client/gort_client.go:13) to point to the kubeconfig for your cluster
+- Modify [gort_client.go](example/client/gort_client.go#13) to point to the kubeconfig for your cluster
 
 I will, eventually, rework the code to support in-cluster authentication as well as support local dev via the KUBECONFIG env variable (my local preference over contexts).
