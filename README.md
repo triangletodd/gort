@@ -1,5 +1,5 @@
 # What
-[gort]:(static/gort.jpg) Gort is a URL shortener intended to run on a Kubernetes cluster which uses a Kubernetes Custom Resource Definition as its data store.
+[gort](static/gort.jpg) Gort is a URL shortener intended to run on a Kubernetes cluster which uses a Kubernetes Custom Resource Definition as its data store.
 
 
 
